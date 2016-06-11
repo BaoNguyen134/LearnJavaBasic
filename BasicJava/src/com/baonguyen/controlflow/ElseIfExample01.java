@@ -1,0 +1,35 @@
+package com.baonguyen.controlflow;
+
+public class ElseIfExample01 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * if(Điều kiên 1) { Làm gì đó tại đây }
+		 * else if(Điều kiện 2) { Làm gì đó tại đây }
+		 * else if(Điều kiện 3) { Làm gì đó tại đây }
+		 * else { Ngược lại Làm gì đó tại đây }
+		 */
+
+		// Khai báo một số tự nhiên (int)
+		// Mô phỏng điểm thi của một bạn
+		int score = 90;
+
+		System.out.println("Your score = " + score);
+
+		// Nếu điểm số nhỏ hơn 50
+		if (score < 50) {
+			System.out.println("BẠN KHÔNG VƯỢT QUA");
+		}
+		// Ngược lại nếu điểm số hơn hơn hoặc bằng 50 và nhỏ hơn 80.
+		else if (score >= 50 && score < 80) {
+			System.out.println("BẠN ĐÃ VƯỢT QUA");
+		}
+		// Trường hợp còn lại (Nghĩa là lớn hơn hoặc bằng 80)
+		else {
+			System.out.println("BẠN ĐÃ VƯỢT QUA, XUẤT SẮC!");
+		}
+
+	}
+
+}

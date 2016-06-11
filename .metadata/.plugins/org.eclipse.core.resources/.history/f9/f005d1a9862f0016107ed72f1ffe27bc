@@ -1,0 +1,10 @@
+package com.baonguyen.javastructure;
+
+public class MethodSampleTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

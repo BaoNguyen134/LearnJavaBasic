@@ -1,0 +1,20 @@
+package com.baonguyen.loop;
+
+public class WhileExample03 {
+
+	public static void main(String[] args) {
+
+		int value = 3;
+
+		// Trong khi value vẫn nhỏ hơn 10 thì vòng lặp vẫn làm việc.
+		while (value < 100) {
+
+			System.out.println("Value = " + value);
+
+			// Tăng giá trị của value lên 2 đơn vị
+			value = value + 2;
+		}
+
+	}
+
+}

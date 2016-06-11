@@ -1,0 +1,11 @@
+package com.baonguyen.inheritance;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

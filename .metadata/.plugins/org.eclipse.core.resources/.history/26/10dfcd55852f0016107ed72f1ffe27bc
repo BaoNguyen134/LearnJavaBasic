@@ -1,0 +1,29 @@
+package com.baonguyen.javastructure;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+
+		// Tạo một đối tượng từ class Person
+		// Khởi tạo đối tượng này tử cấu tử của class Person
+		// Cụ thể là Edison
+		Person edison = new Person("Edison");
+
+		// Class Person có hàm getName()
+		// Sử dụng đối tượng để gọi hàm getName():
+		String name = edison.getName();
+		System.out.println("Person 1: " + name);
+
+		// Tạo một đối tượng từ class Person.
+		// Khởi tạo đối tượng này tử cấu tử của class Person
+		// Cụ thể là Bill Gates
+		Person billGate = new Person("Bill Gates");
+
+		// Class Person có trường name (public)
+		// Sử dụng đối tượng để tham chiếu tới nó.
+		String name2 = billGate.name;
+		System.out.println("Person 2: " + name2);
+
+	}
+
+}

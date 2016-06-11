@@ -1,0 +1,11 @@
+package com.baonguyen.controlflow;
+
+public class SwitchExample04 {
+
+	public static void main(String[] args) {
+
+		
+
+	}
+
+}
